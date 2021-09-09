@@ -115,3 +115,13 @@ int main()
     printf("Merge sort took time for the processing : %f ms\n", time_spent * 1000);
     return 0;
 }
+
+// Explanation : Which algorithm is more efficient and faster?
+/* Time complexity for Merge-sort is O(n log n) and Bubble Sort is O(n) for the best case
+while for the worst case time complexity is O(n log n) and O(n^2) respectively.
+As it is also observed that the more time efficiency you have, the less space efficiency you have and vice versa. 
+However Merge-sort needs an auxiliary extra space to sort and cause more memory access therefore requires less time 
+for the execution i.e has best time efficiency. On the other hand, Bubble-sort may perform better for small data-set 
+but also requires less space which takes time for the execution and is less time efficient than Merge-sort. 
+Therefore the efficiency of Bubble sort decreases while working with large data sets. So for any reasonable size data 
+Merge-sort will outperform Bubble sort. */
